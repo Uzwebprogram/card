@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-repeat: cover ;
+}
+.container{
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color:#fff;
+    width: 500px;
+    margin-left: 370px;
+    margin-top: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+.main-menu{
+    display: flex;
+}
+.item-main{
+    display: flex;
+}
+.list-main1{
+    color: gray;
+}
+.list-main2{
+    color: rgb(190, 190, 190);
+}
+.list-main3{
+    color: rgb(190, 190, 190);
+}
+.body-main{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color:#fff;
+    width: 500px;
+    margin-left: 370px;
+    
+}
+.body{
+    flex-direction: column;
+}
+.body-heading{
+    margin-left: 90px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.body-header{
+    height: 2px;
+    font-weight: bold;
+    background-color: rgb(190, 190, 190);
+    margin: 0;
+}
+.visa-main{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color:#fff;
+    width: 500px;
+    margin-left: 370px;
+}
+.visa-main{
+    display: flex;
+}
+.visa-image{
+    display: flex;
+    margin-left:-300px ;
+}
+.visa-heading{
+    margin-left: 40px;
+    font-family: sans-serif;
+    color: rgb(190, 190, 190);
+    font-size: 20px;
+}
+.mastercard-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color:#fff;
+    width: 500px;
+    margin-left: 370px;
+}
+.main-header{
+    height: 2px;
+    font-weight: bold;
+    background-color: rgb(190, 190, 190);
+    margin: 0;
+}
+
+.main-head{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color:#fff;
+    width: 500px;
+    margin-left: 370px; 
+}
+.mastercard-image{
+    display: flex;
+    margin-left:-50px ;
+}
+.mastercard-heading{
+    margin-left: 40px;
+    font-family: sans-serif;
+    color: rgb(190, 190, 190);
+    font-size: 20px;
+}
+.check-mastercard{
+   padding-left: 150px;
+}
+.maestro-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color:#fff;
+    width: 500px;
+    margin-left: 370px;  
+    height: auto;
+}
+.maestro-image{
+    display: flex;
+    margin-left:-265px ;
+}
+.maestro-heading{
+    margin-left: 40px;
+    font-family: sans-serif;
+    color: rgb(190, 190, 190);
+    font-size: 20px; 
+}
+.start-main{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color:#fff;
+    width: 500px;
+    margin-left: 370px;  
+    color: white;
+    font-family: sans-serif;
+    border: 1px solid rgb(95, 143, 245);
+    background-color:rgb(95, 143, 245) ;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: 0.7 ease;
+}
+.visa-main:hover{
+    background-color: #eeeeee;
+}
+.maestro-main:hover{
+    background-color: #eeeeee;
+}
+.mastercard-main:hover{
+    background-color: #eeeeee;
+}
+.start-main:active{
+ height: 80px;
+}
+
